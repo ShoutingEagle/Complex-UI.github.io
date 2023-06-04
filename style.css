@@ -270,6 +270,11 @@ html{
         width: 650px; 
     }
 
+    .box-9 img{
+        overflow-x: hidden;
+        width: 200px;
+    }
+
 }
 
 @media screen and (max-width:650px) {
@@ -284,7 +289,7 @@ html{
 
     .box-9 img{
         overflow-x: hidden;
-        width: 250px;
+        width: 180px;
     }
     
 }
@@ -323,4 +328,33 @@ html{
         align-items: center;
         gap: 20px;
     }
+
+    .box-8 img{
+        width: 50px;
+     }
+
+    .box-9 img{
+        overflow-x: hidden;
+        width: 80px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .wrapper-gallery{
+        justify-content: center;
+        height: 40vh;
+        width: 300px; 
+    }
+
+    .box-8 img{
+        width: 50px;
+     }
+
+    .box-9 img{
+        overflow-x: hidden;
+        width: 80px;
+        align-items: center;
+    }
+    
 }
